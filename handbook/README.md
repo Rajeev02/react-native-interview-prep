@@ -17,24 +17,24 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 | S2  | [React 19 + React Compiler](S02-react-19.md)                                         | **content** |
 | S3  | [React Native Core](S03-react-native-core.md)                                        | **content** |
 | S4  | [New Architecture (JSI/Fabric/TurboModules/Bridgeless)](S04-new-architecture.md)     | **content** |
-| S5  | [Expo & Tooling](S05-expo-tooling.md)                                                | scaffold    |
+| S5  | [Expo & Tooling](S05-expo-tooling.md)                                                | **content** |
 | S6  | [Hermes & Metro](S06-hermes-metro.md)                                                | **content** |
 | S7  | [Performance Optimization](S07-performance.md)                                       | **content** |
 | S8  | [State Management](S08-state-management.md)                                          | **content** |
 | S9  | [Networking](S09-networking.md)                                                      | **content** |
 | S10 | [Auth & Security](S10-auth-security.md)                                              | **content** |
 | S11 | [Offline-first Systems](S11-offline-first.md)                                        | **content** |
-| S12 | [Push Notifications](S12-push-notifications.md)                                      | scaffold    |
+| S12 | [Push Notifications](S12-push-notifications.md)                                      | **content** |
 | S13 | [Android + Kotlin](S13-android-kotlin.md)                                            | scaffold    |
 | S14 | [iOS + Swift](S14-ios-swift.md)                                                      | scaffold    |
 | S15 | [Native Bridging](S15-native-bridging.md)                                            | **content** |
 | S16 | [Architecture & Scaling](S16-architecture-scaling.md)                                | scaffold    |
-| S17 | [Testing & Debugging](S17-testing-debugging.md)                                      | scaffold    |
-| S18 | [Observability](S18-observability.md)                                                | scaffold    |
+| S17 | [Testing & Debugging](S17-testing-debugging.md)                                      | **content** |
+| S18 | [Observability](S18-observability.md)                                                | **content** |
 | S19 | [Accessibility & i18n](S19-accessibility-i18n.md)                                    | scaffold    |
-| S20 | [CI/CD & Release Engineering](S20-cicd-release.md)                                   | scaffold    |
+| S20 | [CI/CD & Release Engineering](S20-cicd-release.md)                                   | **content** |
 | S21 | [Server-Driven UI](S21-sdui.md)                                                      | scaffold    |
-| S22 | [System Design (Mobile)](S22-system-design.md)                                       | scaffold    |
+| S22 | [System Design (Mobile)](S22-system-design.md)                                       | **content** |
 | S23 | [Coding Rounds (Machine Coding)](S23-machine-coding.md)                              | scaffold    |
 | S24 | [DSA for Mobile](S24-dsa.md)                                                         | scaffold    |
 | S25 | [Behavioral Interviews](S25-behavioral.md)                                           | scaffold    |
@@ -42,7 +42,7 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 | S27 | [Production Runbooks](S27-runbooks.md)                                               | scaffold    |
 | S28 | [Study Plans](S28-study-plans.md)                                                    | scaffold    |
 | S29 | [Cross-Target RN (Web/macOS/visionOS/TV)](S29-cross-target.md)                       | scaffold    |
-| S30 | [Privacy, Compliance & Trust](S30-privacy-compliance.md)                             | scaffold    |
+| S30 | [Privacy, Compliance & Trust](S30-privacy-compliance.md)                             | **content** |
 
 > **scaffold** = section index + topic list + Q-topic stubs; content to be filled in next iterations.
 > **content** = Q-topics fully written in the mandatory per-topic format.
