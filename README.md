@@ -47,6 +47,7 @@ This repo is the single source of truth for the prep. The original monolithic pl
 | 23 | Behavioral + leadership (STAR) | [23-behavioral-star.md](docs/23-behavioral-star.md) |
 | 24 | Resume, LinkedIn, applications, negotiation | [24-resume-linkedin-negotiation.md](docs/24-resume-linkedin-negotiation.md) |
 | 25 | Last-mile cheatsheet | [25-cheatsheet.md](docs/25-cheatsheet.md) |
+| 26 | Lifecycles — Android / iOS / React / RN | [26-lifecycles.md](docs/26-lifecycles.md) |
 
 ### Appendices (`appendix/`)
 
