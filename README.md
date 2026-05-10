@@ -63,6 +63,7 @@ This repo is the single source of truth for the prep. The original monolithic pl
 | H | Gap-fill: handbook topics missing earlier | [H-gap-fill.md](appendix/H-gap-fill.md) |
 | I | The six engineering tracks (lead-level breakdown) | [I-six-engineering-tracks.md](appendix/I-six-engineering-tracks.md) |
 | J | Expo Router, Config Plugins, AI-assisted eng, Top-50 Q index | [J-expo-router-config-plugins.md](appendix/J-expo-router-config-plugins.md) |
+| K | **YouTube references (personal collection)** | [K-youtube-references.md](appendix/K-youtube-references.md) |
 | Z | Final coverage verification | [Z-final-verification.md](appendix/Z-final-verification.md) |
 
 ---
