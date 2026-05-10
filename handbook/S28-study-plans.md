@@ -217,7 +217,7 @@ Weekly mocks:
 - Build 2–3 small projects (offline-first todo, chat, OTP form).
 - Run 5–6 mocks.
 - Internalize 8–10 STAR stories.
-- Polish resume + LinkedIn (S00).
+- Polish resume + LinkedIn (S31).
 
 Risks:
 - Burnout — pace yourself; take 1 day off per week.
@@ -482,7 +482,7 @@ Engineer prepared 90 days technically but skipped visibility / behavioral; faile
 AI for design draft generation; verify with senior peer.
 
 ### Related Topics
-Q1, Q2, Q4, S00, S22.
+Q1, Q2, Q4, S31, S22.
 
 ### Interview Follow-Up Questions
 N/A.
@@ -871,4 +871,4 @@ N/A.
 
 ---
 
-> Cross-refs: S00 (career), all sections (memory hooks), S25 (behavioral).
+> Cross-refs: S31 (career), all sections (memory hooks), S25 (behavioral).

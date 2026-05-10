@@ -915,4 +915,4 @@ Q1, Q3, Q4.
 
 ---
 
-> Cross-refs: S00 (career), S22 (system design tone), S26 (AI-assisted).
+> Cross-refs: S31 (career), S22 (system design tone), S26 (AI-assisted).

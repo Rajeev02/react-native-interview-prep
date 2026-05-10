@@ -12,7 +12,6 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 
 | #   | Section                                                                              | Status      |
 | --- | ------------------------------------------------------------------------------------ | ----------- |
-| S0  | [Career Strategy](S00-career-strategy.md)                                            | **content** |
 | S1  | [JavaScript & TypeScript](S01-javascript-typescript.md)                              | **content** |
 | S2  | [React 19 + React Compiler](S02-react-19.md)                                         | **content** |
 | S3  | [React Native Core](S03-react-native-core.md)                                        | **content** |
@@ -43,6 +42,7 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 | S28 | [Study Plans](S28-study-plans.md)                                                    | **content** |
 | S29 | [Cross-Target RN (Web/macOS/visionOS/TV)](S29-cross-target.md)                       | **content** |
 | S30 | [Privacy, Compliance & Trust](S30-privacy-compliance.md)                             | **content** |
+| S31 | [Career Strategy](S31-career-strategy.md)                                            | **content** |
 
 > **scaffold** = section index + topic list + Q-topic stubs; content to be filled in next iterations.
 > **content** = Q-topics fully written in the mandatory per-topic format.
@@ -50,7 +50,7 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 ## Reading order
 
 - **Beginner → Mid:** S1 → S2 → S3 → S5 → S6 → S7 → S8 → S9 → S11 → S17
-- **Senior:** add S4 → S10 → S15 → S18 → S20 → S22 → S25
+- **Senior:** add S4 → S10 → S15 → S18 → S20 → S22 → S25 → S31
 - **Staff / Architect:** add S16 → S21 → S27 → S29 → S30 + deep S4 / S6
 - **Last 7 days before onsite:** S22 system design + S25 behavioral + the "Revision Notes" of every Q-topic
 

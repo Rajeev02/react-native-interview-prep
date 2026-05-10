@@ -8,7 +8,7 @@
 
 | You have… | Go to | Why |
 |---|---|---|
-| **2–3 months** (recommended) | **[handbook/](handbook/README.md)** — read S00 → S30 in order | Full mastery: 31 sections, 25+ subsections per topic, production stories, memory hooks |
+| **2–3 months** (recommended) | **[handbook/](handbook/README.md)** — read S01 → S31 in order | Full mastery: 31 sections, 25+ subsections per topic, production stories, memory hooks |
 | **45 days** (interview window) | **[THE-PLAN.md](THE-PLAN.md)** — day-by-day schedule | Curated daily checklist that maps to handbook sections + DSA + mocks |
 | **14 days** (interview imminent) | **[appendix/N-14-day-sprint.md](appendix/N-14-day-sprint.md)** + handbook **TL;DR + Memory Hook** of every Q-topic | Survival mode |
 | **3 days** (last mile) | **[docs/25-cheatsheet.md](docs/25-cheatsheet.md)** + **[appendix/A-top-20-companies.md](appendix/A-top-20-companies.md)** | Cheatsheet + company-specific signal |
@@ -19,13 +19,13 @@
 
 ## 📘 The Handbook (primary content)
 
-**31 sections, S00 → S30.** Every Q-topic uses the mandatory format: TL;DR → 30s/2min/5min answers → Internal Working (2026) → Code → Production Failure Story → Memory Hook → Revision Notes.
+**31 sections, S01 → S31.** Every Q-topic uses the mandatory format: TL;DR → 30s/2min/5min answers → Internal Working (2026) → Code → Production Failure Story → Memory Hook → Revision Notes.
 
 **Index:** [handbook/README.md](handbook/README.md)
 
 | Layer | Sections |
 |---|---|
-| **Career & foundations** | [S00 Career Strategy](handbook/S00-career-strategy.md) · [S01 JS/TS](handbook/S01-javascript-typescript.md) · [S02 React 19](handbook/S02-react-19.md) |
+| **Foundations** | [S01 JS/TS](handbook/S01-javascript-typescript.md) · [S02 React 19](handbook/S02-react-19.md) |
 | **RN core + architecture** | [S03 RN Core](handbook/S03-react-native-core.md) · [S04 New Architecture](handbook/S04-new-architecture.md) · [S05 Expo](handbook/S05-expo-tooling.md) · [S06 Hermes/Metro](handbook/S06-hermes-metro.md) |
 | **Performance + state + net** | [S07 Performance](handbook/S07-performance.md) · [S08 State](handbook/S08-state-management.md) · [S09 Networking](handbook/S09-networking.md) |
 | **Auth, offline, push** | [S10 Auth/Security](handbook/S10-auth-security.md) · [S11 Offline-first](handbook/S11-offline-first.md) · [S12 Push](handbook/S12-push-notifications.md) |
@@ -33,6 +33,7 @@
 | **Architecture + ops** | [S16 Scaling](handbook/S16-architecture-scaling.md) · [S17 Testing](handbook/S17-testing-debugging.md) · [S18 Observability](handbook/S18-observability.md) · [S19 a11y/i18n](handbook/S19-accessibility-i18n.md) · [S20 CI/CD](handbook/S20-cicd-release.md) |
 | **Interviews** | [S21 SDUI](handbook/S21-sdui.md) · [S22 System Design](handbook/S22-system-design.md) · [S23 Machine Coding](handbook/S23-machine-coding.md) · [S24 DSA](handbook/S24-dsa.md) · [S25 Behavioral](handbook/S25-behavioral.md) |
 | **Modern + ops + scaling** | [S26 AI-Assisted](handbook/S26-ai-assisted.md) · [S27 Runbooks](handbook/S27-runbooks.md) · [S28 Study Plans](handbook/S28-study-plans.md) · [S29 Cross-Target](handbook/S29-cross-target.md) · [S30 Privacy/Compliance](handbook/S30-privacy-compliance.md) |
+| **Career** | [S31 Career Strategy](handbook/S31-career-strategy.md) |
 
 ---
 
@@ -40,7 +41,7 @@
 
 | Week | Days | Handbook focus | Companion |
 |---|---|---|---|
-| 1 | 1–7 | S00, S01, S02 | DSA warmup ([S24](handbook/S24-dsa.md)) |
+| 1 | 1–7 | S01, S02, S31 | DSA warmup ([S24](handbook/S24-dsa.md)) |
 | 2 | 8–14 | S03, S04, S06 | Read [appendix/M-architecture-diagrams.md](appendix/M-architecture-diagrams.md) |
 | 3 | 15–21 | S05, S07, S08 | 2 mock perf-debugging walkthroughs |
 | 4 | 22–28 | S09, S10, S11, S12 | Build a small offline+push demo |
@@ -107,7 +108,7 @@ The original 26-chapter `docs/` series predates the handbook. It is kept verbati
 | [docs/21-system-design.md](docs/21-system-design.md) | [S22](handbook/S22-system-design.md) |
 | [docs/22-dsa.md](docs/22-dsa.md) | [S24](handbook/S24-dsa.md) |
 | [docs/23-behavioral-star.md](docs/23-behavioral-star.md) | [S25](handbook/S25-behavioral.md) |
-| [docs/24-resume-linkedin-negotiation.md](docs/24-resume-linkedin-negotiation.md) | [S00](handbook/S00-career-strategy.md) |
+| [docs/24-resume-linkedin-negotiation.md](docs/24-resume-linkedin-negotiation.md) | [S31](handbook/S31-career-strategy.md) |
 | [docs/25-cheatsheet.md](docs/25-cheatsheet.md) | (kept — last-mile cheatsheet) |
 | [docs/26-lifecycles.md](docs/26-lifecycles.md) | [S03](handbook/S03-react-native-core.md) + [S13](handbook/S13-android-kotlin.md) + [S14](handbook/S14-ios-swift.md) |
 
@@ -128,7 +129,7 @@ The original 26-chapter `docs/` series predates the handbook. It is kept verbati
 ## 🗂️ Repo map
 
 ```
-handbook/        ← PRIMARY source of truth (S00–S30)
+handbook/        ← PRIMARY source of truth (S01–S31)
 THE-PLAN.md      ← 45-day curated schedule (companion)
 docs/            ← Legacy 26-chapter series (reference)
 appendix/        ← Drills, schedules, company prep, diagrams
