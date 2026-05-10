@@ -187,3 +187,5 @@
 - [Playlist — TBD title](https://youtube.com/playlist?list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0) — Channel: _TBD_ · 📌 Queued
   Notes: _add takeaway after watching · move to relevant topic section above_
 - 
+
+https://www.youtube.com/watch?v=p1DEFpehCsw
