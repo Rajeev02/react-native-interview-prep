@@ -22,6 +22,9 @@
 ## 1. JavaScript core
 <!-- closures, event loop, prototypes, async, generators -->
 
+- [Frontend Interview Questions ](https://youtube.com/playlist?list=PLlasXeu85E9eV5xUEgrWUB8NAUvNZGsK0) — Channel: Akshay Saini· 📌 Queued
+
+
 - 
 
 ## 2. TypeScript

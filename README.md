@@ -64,6 +64,9 @@ This repo is the single source of truth for the prep. The original monolithic pl
 | I | The six engineering tracks (lead-level breakdown) | [I-six-engineering-tracks.md](appendix/I-six-engineering-tracks.md) |
 | J | Expo Router, Config Plugins, AI-assisted eng, Top-50 Q index | [J-expo-router-config-plugins.md](appendix/J-expo-router-config-plugins.md) |
 | K | **YouTube references (personal collection)** | [K-youtube-references.md](appendix/K-youtube-references.md) |
+| L | **50-Q drill bank per section** (~1,150 Qs) | [L-50q-drill-bank.md](appendix/L-50q-drill-bank.md) |
+| M | **Architecture & threading diagrams (Mermaid)** | [M-architecture-diagrams.md](appendix/M-architecture-diagrams.md) |
+| N | **14-day final sprint checklist** | [N-14-day-sprint.md](appendix/N-14-day-sprint.md) |
 | Z | Final coverage verification | [Z-final-verification.md](appendix/Z-final-verification.md) |
 
 ---
@@ -85,6 +88,8 @@ Full per-day breakdown in [appendix/B-30-day-schedule.md](appendix/B-30-day-sche
 | 22–23 | Behavioral + Resume + LinkedIn | 23, 24, Appendix C–E |
 | 24–27 | Q&A drilling | Appendix F, G |
 | 28–30 | Gap-fill + cheatsheet + mocks | Appendix H, I, J + doc 25 |
+
+> **Final 14 days before live loops:** switch to [Appendix N — 14-day sprint](appendix/N-14-day-sprint.md). Drill with [Appendix L](appendix/L-50q-drill-bank.md) and whiteboard from [Appendix M](appendix/M-architecture-diagrams.md).
 
 ---
 
