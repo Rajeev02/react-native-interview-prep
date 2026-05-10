@@ -3,15 +3,17 @@
 > **Audience:** Rajeev (9+ YOE) — Senior / Lead React Native loops at Tier S/A India fintechs and product cos (PhonePe, CRED, Razorpay, Groww, Zerodha, Swiggy, Flipkart, Microsoft, Walmart, Atlassian, Coinbase, Booking…).
 > **Goal:** ₹40+ LPA floor → ₹45–55 LPA target → ₹55–70 LPA stretch.
 
-This repo is the single source of truth for the prep. The original monolithic plan lives in [MasterPlan.md](MasterPlan.md); this README is the **navigable index** split by topic and a **30-day daily plan** so you can revise one chunk at a time.
+This repo is the single source of truth for the prep. The original monolithic plan lives in [MasterPlan.md](MasterPlan.md); this README is the **navigable index** split by topic.
+
+> 📍 **Follow ONE plan, not many.** The unified 45-day learning path is **[THE-PLAN.md](THE-PLAN.md)** — open it now and follow it day-by-day. Appendix B (30-day) and Appendix N (14-day sprint) still exist as detailed references but are folded into THE-PLAN.
 
 ---
 
 ## How to use this repo
 
-1. **First pass (Week 1):** read `docs/01` → `docs/25` top-to-bottom, once.
-2. **Daily revision:** open the [30-day schedule](appendix/B-30-day-schedule.md) and do exactly one day's chunk.
-3. **Mock prep:** for each topic, you must be able to answer the **"Must-answer questions"** at the bottom of every doc out loud in 60 seconds.
+1. **Open [THE-PLAN.md](THE-PLAN.md)** and follow Days 1 → 45 in order.
+2. **Each day** points you to the exact `docs/` chapter, [Appendix L](appendix/L-50q-drill-bank.md) drill section, [Appendix M](appendix/M-architecture-diagrams.md) diagram, and DSA problems to do that day.
+3. **Mock prep:** for each topic, you must answer the **"Must-answer questions"** at the bottom of every doc out loud in 60 seconds.
 4. **Last 3 days before any onsite:** read [25 — Last-mile cheatsheet](docs/25-cheatsheet.md) + the relevant company section in [Appendix A](appendix/A-top-20-companies.md).
 
 ---
@@ -71,25 +73,19 @@ This repo is the single source of truth for the prep. The original monolithic pl
 
 ---
 
-## 30-day daily plan (high level)
+## 45-day unified plan (high level)
 
-Full per-day breakdown in [appendix/B-30-day-schedule.md](appendix/B-30-day-schedule.md).
+Full per-day breakdown in **[THE-PLAN.md](THE-PLAN.md)**. Old schedules ([Appendix B](appendix/B-30-day-schedule.md), [Appendix N](appendix/N-14-day-sprint.md)) are kept for cross-reference only.
 
-| Days | Theme | Primary docs |
+| Phase | Days | Theme |
 |---|---|---|
-| 1–3 | JS + TS foundations | 02, 03 |
-| 4–6 | React + RN architecture | 04, 05 |
-| 7–9 | Performance + Hermes/Metro + Native modules | 06, 07, 08 |
-| 10–12 | State, Navigation, Networking | 10, 11, 12 |
-| 13–14 | Auth + Storage + Push | 13, 14, 15 |
-| 15–16 | Security + a11y + Testing | 16, 17, 18 |
-| 17–18 | CI/CD + Observability | 19, 20 |
-| 19–21 | System design + DSA | 21, 22 |
-| 22–23 | Behavioral + Resume + LinkedIn | 23, 24, Appendix C–E |
-| 24–27 | Q&A drilling | Appendix F, G |
-| 28–30 | Gap-fill + cheatsheet + mocks | Appendix H, I, J + doc 25 |
-
-> **Final 14 days before live loops:** switch to [Appendix N — 14-day sprint](appendix/N-14-day-sprint.md). Drill with [Appendix L](appendix/L-50q-drill-bank.md) and whiteboard from [Appendix M](appendix/M-architecture-diagrams.md).
+| 1 — Foundations | 1–7 | JS / TS / React fundamentals |
+| 2 — RN core + perf | 8–14 | Architecture, Hermes, perf, native modules, debugging |
+| 3 — Production stack | 15–21 | State, nav, networking, auth, offline, push, security |
+| 4 — Quality + ops | 22–27 | a11y, testing, CI/CD, observability, system design, DSA |
+| 5 — Career mechanics | 28–31 | Behavioral, resume, LinkedIn, applications |
+| 6 — Final sprint | 32–45 | Re-grounding + drilling + mocks + diagrams |
+| 7 — Loops | 46+ | Active interviews + per-loop prep |
 
 ---
 
