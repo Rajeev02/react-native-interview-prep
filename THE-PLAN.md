@@ -55,35 +55,35 @@ Create one spreadsheet with columns:
 - **Read:** [docs/02](docs/02-javascript-core.md)
 - **Drill:** [L.2 Q1–25](appendix/L-50q-drill-bank.md#l2--javascript-core-50)
 - **Hands-on:** 5 closure puzzles + 5 `this` puzzles. Implement `pLimit(n)` from scratch.
-- **DSA:** L.22 #1, #2 (reverse string, two-sum)
+- **DSA:** [L.22 #1, #2](appendix/L-50q-drill-bank.md#l22--dsa-50) (reverse string, two-sum)
 - **Verify:** Stale closure in `useEffect` — show + fix in 60s ☐
 
 ### Day 2 — JS async + event loop
 - **Read:** [docs/02 §async](docs/02-javascript-core.md)
 - **Drill:** [L.2 Q26–50](appendix/L-50q-drill-bank.md#l2--javascript-core-50)
 - **Hands-on:** Implement `retry(fn,n,delay)`, `debounce`, `throttle`, `memoize`, `Promise.all` polyfill.
-- **DSA:** L.22 #5, #6 (Kadane, move zeroes)
+- **DSA:** [L.22 #5, #6](appendix/L-50q-drill-bank.md#l22--dsa-50) (Kadane, move zeroes)
 - **Verify:** Output of `console.log + setTimeout + Promise.then` interleave ☐
 
 ### Day 3 — TypeScript
 - **Read:** [docs/03](docs/03-typescript.md)
 - **Drill:** [L.3 Q1–50](appendix/L-50q-drill-bank.md#l3--typescript-50)
 - **Hands-on:** Generic `useFetch<T>`, typed `RootStackParamList`, Zod schema for one API.
-- **DSA:** L.22 #11 (longest substring without repeat)
+- **DSA:** [L.22 #11](appendix/L-50q-drill-bank.md#l22--dsa-50) (longest substring without repeat)
 - **Verify:** `type` vs `interface` decision — when each ☐
 
 ### Day 4 — React + hooks
 - **Read:** [docs/04 §1–§4](docs/04-react-deep-dive.md)
 - **Drill:** [L.4 Q1–25](appendix/L-50q-drill-bank.md#l4--react-deep-dive-50)
 - **Hands-on:** Build `useDebounce`, `usePrevious`, `useToggle`, `useInterval`, `useAsync`.
-- **DSA:** L.22 #18, #19 (linked list reverse, cycle)
+- **DSA:** [L.22 #18, #19](appendix/L-50q-drill-bank.md#l22--dsa-50) (linked list reverse, cycle)
 - **Verify:** When does `React.memo` NOT help? ☐
 
 ### Day 5 — React advanced + perf
 - **Read:** [docs/04 rest](docs/04-react-deep-dive.md), [docs/26](docs/26-lifecycles.md)
 - **Drill:** [L.4 Q26–50](appendix/L-50q-drill-bank.md#l4--react-deep-dive-50)
 - **Hands-on:** Profile sample app with React DevTools, fix 3 unnecessary re-renders.
-- **DSA:** L.22 #25, #26 (BFS, inorder iterative)
+- **DSA:** [L.22 #25, #26](appendix/L-50q-drill-bank.md#l22--dsa-50) (BFS, inorder iterative)
 - **Whiteboard:** [M.3 (render→commit)](appendix/M-architecture-diagrams.md#m3--render--reconcile--commit-fabric)
 - **Verify:** Top 5 React anti-patterns ☐
 
@@ -104,7 +104,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.5 Q1–50](appendix/L-50q-drill-bank.md#l5--rn-architecture-50)
 - **Hands-on:** Fresh RN app, toggle Hermes on/off, measure cold start.
 - **Whiteboard:** [M.1 + M.2](appendix/M-architecture-diagrams.md#m1--rn-old-architecture-bridge--paper) from memory.
-- **DSA:** L.22 #15, #16 (min stack, daily temps)
+- **DSA:** [L.22 #15, #16](appendix/L-50q-drill-bank.md#l22--dsa-50) (min stack, daily temps)
 - **Verify:** JSI vs Bridge in 90s ☐
 
 ### Day 9 — Hermes + Metro + bundle
@@ -112,7 +112,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.6 Q1–50](appendix/L-50q-drill-bank.md#l6--hermes-metro-bundle-startup-50)
 - **Hands-on:** Profile cold start with Hermes profiler. Apply `inlineRequires`. Reduce 30%.
 - **Whiteboard:** [M.4 (startup)](appendix/M-architecture-diagrams.md#m4--app-startup-sequence-cold-start)
-- **DSA:** L.22 #23 (LRU cache from scratch)
+- **DSA:** [L.22 #23](appendix/L-50q-drill-bank.md#l22--dsa-50) (LRU cache from scratch)
 - **Verify:** Hermes vs JSC tradeoffs ☐
 
 ### Day 10 — Performance: lists, animations, images
@@ -120,7 +120,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.7 Q1–50](appendix/L-50q-drill-bank.md#l7--performance-50)
 - **Hands-on:** Migrate 1000-row FlatList → FlashList. Measure FPS gain.
 - **Whiteboard:** [M.5 (Reanimated worklet)](appendix/M-architecture-diagrams.md#m5--reanimated-worklet-threading)
-- **DSA:** L.22 #17 (sliding window max)
+- **DSA:** [L.22 #17](appendix/L-50q-drill-bank.md#l22--dsa-50) (sliding window max)
 - **Verify:** 5 list-perf knobs ☐
 
 ### Day 11 — Native modules
@@ -128,14 +128,14 @@ Create one spreadsheet with columns:
 - **Drill:** [L.8 Q1–50](appendix/L-50q-drill-bank.md#l8--native-modules-swift--kotlin-50)
 - **Hands-on:** Write Swift + Kotlin "battery level + charging state" module. Emit events.
 - **Whiteboard:** [M.15 (TM migration)](appendix/M-architecture-diagrams.md#m15--native-module-bridge--turbomodule-migration)
-- **DSA:** L.22 #20, #21 (merge two/K sorted)
+- **DSA:** [L.22 #20, #21](appendix/L-50q-drill-bank.md#l22--dsa-50) (merge two/K sorted)
 - **Verify:** TurboModule vs old NativeModule in 60s ☐
 
 ### Day 12 — Debugging deep day
 - **Read:** [docs/09](docs/09-debugging.md)
 - **Drill:** [L.9 Q1–50](appendix/L-50q-drill-bank.md#l9--debugging-50)
 - **Hands-on:** Plant a memory leak (uncleaned listener). Find via Instruments + Android Profiler. Fix. Symbolicate one crash.
-- **DSA:** L.22 #14 (valid parentheses)
+- **DSA:** [L.22 #14](appendix/L-50q-drill-bank.md#l22--dsa-50) (valid parentheses)
 - **Verify:** 5 debug tools, when each shines ☐
 
 ### Day 13 — Mock + DSA day
@@ -155,7 +155,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.10 Q1–50](appendix/L-50q-drill-bank.md#l10--state-management-50)
 - **Hands-on:** Build 1 screen using RTK + Zustand + React Query (each for the right job).
 - **Whiteboard:** [M.14 (state decision tree)](appendix/M-architecture-diagrams.md#m14--state-management-decision-tree)
-- **DSA:** L.22 #36, #37 (climbing stairs, house robber)
+- **DSA:** [L.22 #36, #37](appendix/L-50q-drill-bank.md#l22--dsa-50) (climbing stairs, house robber)
 - **Verify:** RQ vs Redux decision in 30s ☐
 
 ### Day 16 — Navigation + deep linking
@@ -163,7 +163,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.11 Q1–50](appendix/L-50q-drill-bank.md#l11--navigation--deep-linking-50)
 - **Hands-on:** Typed RN project with auth gate + universal link + custom-scheme fallback. Test with `xcrun simctl openurl` + `adb shell am start`.
 - **Whiteboard:** [M.6, M.7](appendix/M-architecture-diagrams.md#m6--navigation-stack-native-stack)
-- **DSA:** L.22 #31, #32 (islands, course schedule)
+- **DSA:** [L.22 #31, #32](appendix/L-50q-drill-bank.md#l22--dsa-50) (islands, course schedule)
 - **Verify:** AASA + assetlinks verification flow ☐
 
 ### Day 17 — Networking
@@ -171,7 +171,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.12 Q1–50](appendix/L-50q-drill-bank.md#l12--networking-rest-graphql-websockets-50)
 - **Hands-on:** Axios with interceptor + AbortController + retry-with-backoff. WS reconnect demo.
 - **Whiteboard:** [M.18 (request lifecycle)](appendix/M-architecture-diagrams.md#m18--end-to-end-request-lifecycle-rn--backend--telemetry)
-- **DSA:** L.22 #10 (top-K frequent)
+- **DSA:** [L.22 #10](appendix/L-50q-drill-bank.md#l22--dsa-50) (top-K frequent)
 - **Verify:** Idempotency + circuit breaker explained ☐
 
 ### Day 18 — Auth, sessions, tokens
@@ -179,7 +179,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.13 Q1–50](appendix/L-50q-drill-bank.md#l13--auth-sessions-tokens-50)
 - **Hands-on:** OAuth + PKCE flow with `expo-auth-session` or equivalent. Single-flight refresh wrapper.
 - **Whiteboard:** [M.8, M.9](appendix/M-architecture-diagrams.md#m8--auth-oauth-20--pkce-flow)
-- **DSA:** L.22 #43 (subsets backtracking)
+- **DSA:** [L.22 #43](appendix/L-50q-drill-bank.md#l22--dsa-50) (subsets backtracking)
 - **Verify:** Draw OAuth + PKCE end-to-end ☐
 
 ### Day 19 — Offline-first + storage
@@ -187,7 +187,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.14 Q1–50](appendix/L-50q-drill-bank.md#l14--offline-first--storage-50)
 - **Hands-on:** Offline todo with MMKV + outbox + sync on reconnect. Conflict reconciliation (LWW).
 - **Whiteboard:** [M.10 (offline sync)](appendix/M-architecture-diagrams.md#m10--offline-first-sync-engine)
-- **DSA:** L.22 #38 (LIS)
+- **DSA:** [L.22 #38](appendix/L-50q-drill-bank.md#l22--dsa-50) (LIS)
 - **Verify:** Conflict strategies (LWW vs CRDT) ☐
 
 ### Day 20 — Push notifications + Security
@@ -195,7 +195,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.15](appendix/L-50q-drill-bank.md#l15--push-notifications-50), [L.16](appendix/L-50q-drill-bank.md#l16--mobile-security-50) (50 each)
 - **Hands-on:** Secure token store wrapper (Keychain/Keystore). Cert-pinning config. Push handler with deep link.
 - **Whiteboard:** [M.11 (push)](appendix/M-architecture-diagrams.md#m11--push-notification-architecture)
-- **DSA:** L.22 #49 (trie)
+- **DSA:** [L.22 #49](appendix/L-50q-drill-bank.md#l22--dsa-50) (trie)
 - **Verify:** OWASP Mobile Top 10 + 1 mitigation each ☐
 
 ### Day 21 — Mock + DSA day
@@ -217,7 +217,7 @@ Create one spreadsheet with columns:
 - **Read:** [docs/18](docs/18-testing.md)
 - **Drill:** [L.18 Q1–50](appendix/L-50q-drill-bank.md#l18--testing-50)
 - **Hands-on:** 5 RNTL component tests + 1 Maestro/Detox e2e flow + 1 hook test with `renderHook`.
-- **DSA:** L.22 #28 (LCA)
+- **DSA:** [L.22 #28](appendix/L-50q-drill-bank.md#l22--dsa-50) (LCA)
 - **Verify:** Mock pyramid ratios ☐
 
 ### Day 24 — CI/CD + releases
@@ -232,7 +232,7 @@ Create one spreadsheet with columns:
 - **Drill:** [L.20 Q1–50](appendix/L-50q-drill-bank.md#l20--observability-50)
 - **Hands-on:** Sentry + Crashlytics integrated. Custom transactions. PII scrub in `beforeSend`.
 - **Whiteboard:** [M.13 (observability)](appendix/M-architecture-diagrams.md#m13--observability-data-flow)
-- **DSA:** L.22 #30 (serialize/deserialize tree)
+- **DSA:** [L.22 #30](appendix/L-50q-drill-bank.md#l22--dsa-50) (serialize/deserialize tree)
 - **Verify:** Crash-free user rate target + measurement ☐
 
 ### Day 26 — Mobile system design Round 1
