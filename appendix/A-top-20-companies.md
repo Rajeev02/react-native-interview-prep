@@ -28,7 +28,7 @@
 
 > Skip-or-deprioritize: pure-Android-only shops, generic services companies (TCS/Infy/Wipro mobile), early seed startups under 2 YOE founders.
 
-### What ₹40+ LPA actually requires
+### What a top-band Senior / Lead offer actually requires
 
 | Bar | What it means | Where you stand |
 |---|---|---|
@@ -40,28 +40,28 @@
 | 1 mobile system design rehearsed | Offline-first fintech | gap, ~1 wk |
 | Competing offers | 2+ in-flight at decision time | strategy, not skill |
 
-If you hit the first 6, **₹40 LPA is the floor offer**. The 7th (competing offers) pushes ₹40 → ₹50+.
+If you hit the first 6, top-of-band offers become realistic. The 7th (competing offers) is what converts a baseline offer into a premium one.
 
-### Why the ₹23 → ₹40+ jump works
-1. You are likely **underpaid for 9 YOE fintech RN** in Bengaluru — market rate is ₹35–45 LPA fixed.
-2. Switch hikes are calculated on **market rate**, not current CTC, when the candidate is in demand.
-3. **Lead-track positioning** (not Senior IC) adds ₹8–15 LPA on the same skills.
-4. **Fintech domain premium** is real — PhonePe/CRED/Razorpay pay 20–30% above generic product cos.
-5. **Competing offers** convert ₹35 LPA offers into ₹45 LPA offers in 2–3 days.
+### Why the role-level jump works
+1. Senior+ RN engineers with **deep fintech / native interop / new-arch** are scarce — demand outpaces supply.
+2. Switch hikes are calculated on **market rate** for your role-level, not your current number, when the candidate is in demand.
+3. **Lead-track positioning** (not Senior IC) materially raises the band on the same skills.
+4. **Fintech domain premium** is real — fintech product cos typically pay above generic product cos.
+5. **Competing offers** are what move offers from baseline to top-of-band, fast.
 
 ### What can break it
 - Accepting the first offer.
-- Disclosing current CTC too early (anchors them low).
+- Disclosing your current number too early (anchors them low).
 - Targeting only Senior IC roles instead of Lead.
-- Going to services companies / mid-tier startups — bands cap at ₹30–35 LPA.
-- Weak DSA (1 round failure can drop the band by ₹5–10 LPA).
+- Going to services companies / mid-tier startups — bands cap well below product co Senior+.
+- Weak DSA (one round failure can drop you a band).
 
 ### Application strategy
 1. **Referrals > portals.** ~70% of Tier S/A senior offers come via referrals. For each target, find 2–3 ex-colleagues / 2nd-degree connections on LinkedIn, send a short DM.
 2. **Apply in clusters of 5–8 cos/week**, not 30 at once.
 3. **Customize the Summary line** of the resume per company.
-4. **Track everything** in a sheet: company, contact, applied date, stage, expected CTC, next step.
-5. **Negotiate hard but kindly.** 9 YOE + fintech + lead signal = top 5–10% of RN talent in India.
+4. **Track everything** in a sheet: company, contact, applied date, stage, expected band, next step.
+5. **Negotiate hard but kindly.** Senior+ RN engineers with deep fintech / native interop are scarce — you have leverage.
 
 ### Honest risks to manage
 - **Capacitor migration** can be read as "moved away from RN" — own the narrative: business decision, not skill regression.

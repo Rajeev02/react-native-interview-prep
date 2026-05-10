@@ -325,7 +325,7 @@ By end of Day 14, you should be able to:
 3. Deliver any of 5 system designs in 25 min with all 10 boxes covered.
 4. Tell any of 10 STAR stories in 90–120s with metric in Result.
 5. Solve a medium DSA in ≤25 min, articulating brute → optimized.
-6. Negotiate to ≥₹45 LPA fixed with 1 competing offer leverage.
+6. Negotiate using **role-level band research** (levels.fyi / AmbitionBox / Glassdoor) with at least one competing-offer leverage.
 
 When all 6 hold → loops are routine, not stressful. You're ready.
 

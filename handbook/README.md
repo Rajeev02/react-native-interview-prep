@@ -22,8 +22,8 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 | S7  | [Performance Optimization](S07-performance.md)                                       | **content** |
 | S8  | [State Management](S08-state-management.md)                                          | **content** |
 | S9  | [Networking](S09-networking.md)                                                      | **content** |
-| S10 | [Auth & Security](S10-auth-security.md)                                              | scaffold    |
-| S11 | [Offline-first Systems](S11-offline-first.md)                                        | scaffold    |
+| S10 | [Auth & Security](S10-auth-security.md)                                              | **content** |
+| S11 | [Offline-first Systems](S11-offline-first.md)                                        | **content** |
 | S12 | [Push Notifications](S12-push-notifications.md)                                      | scaffold    |
 | S13 | [Android + Kotlin](S13-android-kotlin.md)                                            | scaffold    |
 | S14 | [iOS + Swift](S14-ios-swift.md)                                                      | scaffold    |

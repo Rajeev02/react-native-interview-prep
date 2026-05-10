@@ -337,7 +337,7 @@ Demo: login → store tokens → 401 → silent refresh → biometric gate after
 > "I've taken LVX and LVXQ from feature-light to a production fintech platform, and I'm at the point where the next leap for me is leading mobile at a larger product org — owning architecture decisions across multiple apps and engineers. LetsVenture is a great team; this move is about scope, not dissatisfaction."
 
 **"What's your current CTC?" (deflect)**:
-> "I'd rather we align on the band the role is open to first — I want to make sure we're in the same range before we get into specifics. My expected fixed is **₹45–55 LPA** based on what the market is offering for senior fintech RN roles in Bengaluru. Happy to share details once we have a mutual fit."
+> "I'd rather we align on the band the role is open to first — I want to make sure we're in the same range before we get into specifics. My target is the **role-level band** I've researched on levels.fyi / AmbitionBox for this seniority and scope. Happy to share details once we have a mutual fit."
 
 **"What's your notice period?"**:
 > "Officially 60 days, but I've had similar moves negotiated down to 30–45 days with a clean handover plan. I can commit a date once an offer is concrete."
@@ -490,7 +490,7 @@ If you can:
 - Handle the recruiter scripts in H.8 cold.
 - Build at least 3 sample apps from H.7 and link them on your resume.
 
-…then you are ready for ₹40+ LPA RN/mobile-lead loops in India. Go land them.
+…then you are ready for Senior / Staff / Lead RN loops at top product companies. Go land them.
 
 ---
 

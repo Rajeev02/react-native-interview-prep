@@ -45,4 +45,4 @@ If you want me to literally generate 50 Qs (no answers, just bank) per major sec
 - Six engineering tracks with score-yourself rubric
 - 5 sample-app build specs + 1 monorepo blueprint
 
-Read top-to-bottom once. Then revise by section. Build at least 3 of the H.7 sample apps. Record the 10 STAR stories. Run mock loops with someone for 2 weeks. You're then ready for ₹40+ LPA RN/mobile-lead loops in India.
+Read top-to-bottom once. Then revise by section. Build at least 3 of the H.7 sample apps. Record the 10 STAR stories. Run mock loops with someone for 2 weeks. You're then ready for Senior / Staff / Lead RN loops at top product companies.

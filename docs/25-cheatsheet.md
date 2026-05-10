@@ -179,7 +179,7 @@ Blaming others; "we" without your specific role.
 "What does success look like in 90 days, and what's the path Senior → Lead here?"
 
 ### 46. Comp anchor opener?
-"₹45–55 LPA fixed band based on scope."
+Anchor on your **role-level band** researched on levels.fyi / AmbitionBox / Glassdoor. Never disclose current number first.
 
 ### 47. When to walk away?
 After 3 lowball rounds + no movement + no comp transparency.

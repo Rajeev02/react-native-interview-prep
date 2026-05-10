@@ -4,7 +4,7 @@
 
 **Target roles**: Senior RN Engineer (IC4/SDE-3) → Lead RN Developer → Mobile Tech Lead → Fintech Mobile Lead.
 
-**Comp targets (Bengaluru, 2026)**: ₹40+ LPA floor, ₹45–55 LPA target, ₹55–70 LPA stretch with competing offers. Anchor recruiter at ₹48–55 LPA fixed. Never disclose ₹23 LPA early — say *"low-20s fixed; evaluating ₹45–55 LPA band based on scope"*.
+**Comp targets**: research per-role bands on levels.fyi / AmbitionBox / Glassdoor for your geography and seniority. Anchor recruiters on your **role-level band**, not on your current number. Always deflect "current?" until the role band is on the table.
 
 **Top-20 targets**: PhonePe, Razorpay, CRED, Groww, Zerodha, Jupiter, Slice, Freecharge / Swiggy, Zomato, Flipkart, Meesho, Dream11, PharmEasy / Microsoft, Walmart, Atlassian, Coinbase, Booking, Postman/Zeta. Full breakdown: [job-market-2026-top20-plan.md](job-market-2026-top20-plan.md).
 
@@ -22,10 +22,10 @@
 > "9+ years building consumer mobile apps. Last ~3 years senior IC + tech lead on React Native at LetsVenture — fintech, owned auth, KYC, payments, deep linking, observability across iOS + Android. Before that, mixed native Android + RN. Looking for Senior / Lead RN role with bigger fintech scale."
 
 ### 2. Why are you looking to switch?
-> "Three things: (1) scale — want 10M+ MAU consumer surface; (2) growth — into Lead / Staff IC track with formal mentoring scope; (3) comp — current band is below market for my YOE."
+> "Three things: (1) scale — want a 10M+ MAU consumer surface; (2) growth — into Lead / Staff IC track with formal mentoring scope; (3) comp — current band is below market for my role-level."
 
 ### 3. What's your current CTC and expectation?
-> "Current is low-20s LPA fixed. For this role and scope I'm evaluating in the ₹45–55 LPA fixed band with reasonable variable + ESOPs." **Never disclose ₹23 exact early.**
+> "I'd rather align on the band the role is open to first. For my role-level (Senior / Lead) and this scope I'm evaluating roles in the [your researched band]; happy to share specifics once we have a mutual fit." **Never disclose your current number early.**
 
 ### 4. Why React Native and not native?
 > "I've shipped both. RN gives 70–80% code reuse, single team, faster iteration — critical for fintech where the same KYC/payment flow ships on both stores weekly. I still drop to Swift/Kotlin for camera, biometrics, payment SDKs."
@@ -52,7 +52,7 @@
 > "Yes — RN 0.66 → 0.74 with new arch enabled (Fabric + TurboModules) for 3 of our modules. Took 6 weeks; staged behind a runtime flag."
 
 ### 12. Comp negotiation — what's your floor?
-> "₹40 LPA fixed is my floor for an IC role; for Lead with people scope, ₹48+ LPA. I'm open to RSU / ESOP weighting."
+> "My floor depends on role-level: Senior IC vs Lead with people scope is a different band. Share the band the role is open to and I'll align. I'm open to RSU / ESOP weighting."
 
 ### 13. Do you have competing offers?
 > "I'm in active loops with 2 fintechs and 1 product company. Happy to share timelines if we can align on ranges first." (Use even if it's just early conversations.)

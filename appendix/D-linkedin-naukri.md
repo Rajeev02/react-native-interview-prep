@@ -37,7 +37,7 @@
 - **Key skills (add)**: React Native CLI, Expo, React Navigation, Redux Toolkit, Zustand, React Query, TypeScript, Jest, Detox, Fastlane, CI/CD, App Store Deployment, Play Store Deployment, Deep Linking, Branch.io, Auth0, AWS Cognito, Razorpay, Cashfree, Sentry, PostHog, Performance Optimization
 - **Key skills (remove)**: Mobile Development (generic), Mobile Application Development (generic), Android Application Development (generic), Visual Studio, Context API
 - **Preferred locations**: Bengaluru, Remote, Hyderabad, Pune, Chennai, Gurugram, Noida (drop Kolkata)
-- **Expected salary**: bump from ₹25L → ₹28–32L on Naukri (filters by band)
+- **Expected salary**: set the band slightly above your current number on Naukri so you don't get filtered out by recruiters searching by band. Use levels.fyi / AmbitionBox to set realistic role-level numbers.
 - **Notice period**: state explicitly with last working date if known
 
 ### Best search keywords (sprinkle across headline/summary/experience/skills)

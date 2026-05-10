@@ -4,7 +4,7 @@
 >
 > **Total:** 45 days study + ongoing loops.
 > **Cadence:** 6–8 hrs/day, 6 days/week, 1 rest day per week.
-> **Goal:** ₹40+ LPA floor → ₹45–55 LPA target (Senior/Lead RN, India Tier S/A).
+> **Goal:** Land a Senior / Staff / Lead React Native role at a top product company — role-level progression, not a fixed comp number.
 
 ---
 
@@ -427,7 +427,7 @@ By Day 45 you should be able to:
 3. Deliver any of 5 system designs in 25 min covering all 10 boxes
 4. Tell any of 10 STAR stories in 90–120s with metric in Result
 5. Solve a medium DSA in ≤25 min, brute → optimized articulated
-6. Negotiate to ≥₹45 LPA fixed with 1 competing-offer leverage
+6. Negotiate using **role-level band research** (levels.fyi / AmbitionBox / Glassdoor) and at least one competing-offer leverage.
 
 When all 6 hold → loops are routine, not stressful. **You're ready.**
 

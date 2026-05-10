@@ -1,7 +1,7 @@
 # React Native Senior / Lead Interview Study Plan — 2026
 
-> **Audience:** Rajeev (9+ YOE) — Senior / Lead React Native loops at Tier S/A India fintechs and product cos (PhonePe, CRED, Razorpay, Groww, Zerodha, Swiggy, Flipkart, Microsoft, Walmart, Atlassian, Coinbase, Booking…).
-> **Goal:** ₹40+ LPA floor → ₹45–55 LPA target → ₹55–70 LPA stretch.
+> **Audience:** React Native engineers preparing for **Senior / Staff / Lead / Architect** loops at product companies and fintechs (PhonePe, CRED, Razorpay, Groww, Zerodha, Swiggy, Flipkart, Microsoft, Walmart, Atlassian, Coinbase, Booking…).
+> **Goal:** Role-level progression — **Mid → Senior → Staff/Lead → Principal/Architect**. The depth here targets Senior+ loops; juniors can use it as a roadmap.
 
 This repo is the single source of truth for the prep. The original monolithic plan lives in [MasterPlan.md](MasterPlan.md); this README is the **navigable index** split by topic.
 
@@ -93,7 +93,7 @@ Full per-day breakdown in **[THE-PLAN.md](THE-PLAN.md)**. Old schedules ([Append
 
 - Every `docs/NN-*.md` ends with a **Must-answer questions** block — drill those out loud.
 - Code blocks are interview-ready snippets, not production-grade — adapt before shipping.
-- Indian comp anchors throughout (₹ LPA, Bengaluru market 2026).
+- Targets are **role-level** (Senior / Staff / Lead / Architect), not compensation-based — applicable across markets.
 
 ---
 

@@ -66,7 +66,7 @@
 1. **Speak answers aloud** every day. Reading is not preparing.
 2. **Build the hands-on artifact** for each day. Have a repo to show.
 3. **Quote numbers** from your own work.
-4. **Don't disclose ₹23 LPA** to recruiters. Anchor at ₹45–55 LPA fixed.
+4. **Don't disclose your current number** to recruiters early. Anchor on the role-level band you researched.
 5. **Run 3+ processes in parallel** in week 5.
 6. **Sleep 7+ hrs**.
 
@@ -78,7 +78,7 @@
 ### After Day 30
 - Week 5: interview-driven prep. Each interview tells you the next gap.
 - Week 6: offer optimization (see Section 24 negotiation).
-- Target: **first offer by Day 45, signed offer at ₹40+ LPA by Day 60.**
+- Target: **first offer by Day 45**; sign once you've reached your researched role-level band with at least one competing offer for leverage.
 
 ---
 

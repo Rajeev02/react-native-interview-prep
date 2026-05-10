@@ -17,21 +17,18 @@
 - Full positioning: [linkedin-naukri-react-native-positioning.md](linkedin-naukri-react-native-positioning.md).
 
 ### Application strategy
-1. **Referrals first** (~70% of Tier S/A offers come via referral). Find 2–3 contacts per target on LinkedIn.
+1. **Referrals first** (~70% of senior offers at top product cos come via referral). Find 2–3 contacts per target on LinkedIn.
 2. Apply in clusters of 5–8/week.
-3. Track: Company / Role / Source / Contact / Applied / Stage / Expected CTC / Next.
+3. Track: Company / Role / Source / Contact / Applied / Stage / Expected band / Next.
 4. Customize Summary line per JD.
 
-### Negotiation (₹40+ LPA target)
-- Walk-away: ₹38 LPA fixed. Target: ₹45 LPA fixed. Stretch: ₹55+ with offers.
-- Recruiter script for "current CTC?": *"My current fixed is in the low-20s; I'm evaluating roles in the ₹45–55 LPA fixed band based on scope and 9 YOE."*
-- Recruiter script for "expected?": *"Looking at ₹48–55 LPA fixed; total comp open depending on RSU/ESOP."*
+### Negotiation (role-band targeting)
+- Define your own walk-away, target, and stretch bands using levels.fyi / AmbitionBox / Glassdoor for your role-level (Senior / Staff / Lead / Architect) in your geography.
+- Recruiter script for "current?" — deflect to *"I'd rather align on the band the role is open to first; happy to share specifics once we have a mutual fit."*
+- Recruiter script for "expected?" — anchor on a **range** that matches your role-level and the company's published bands; cite scope, not your current number.
 - Always run 3+ processes in parallel. One offer = no leverage.
-- Joining bonus: ₹3–8 LPA is fair when leaving variable/RSU on table.
-- Per-tier bands:
-  - **Tier S fintech**: ₹40–60 LPA fixed + 10–25% var + ESOPs.
-  - **Tier A**: ₹38–55 LPA fixed + RSU/ESOP.
-  - **Tier A− globals**: ₹42–65 LPA fixed + ₹15–40 LPA RSU.
+- Joining bonus is fair when you're leaving variable / RSU on the table at your current employer.
+- Use levels.fyi / company-specific data to set realistic per-tier bands; do not anchor on absolute numbers from this guide — they go stale fast and vary by geography.
 
 ### Risks + mitigations
 - **Capacitor migration narrative** — frame as business decision, not skill regression.
@@ -68,7 +65,7 @@ Header → 2-line summary → Experience (most recent first, with impact bullets
 Plain single-column text, no fancy fonts, save as PDF (text-based), include keywords from JD verbatim.
 
 ### 7. LinkedIn headline formula.
-`Senior Mobile Engineer | React Native + Native iOS/Android | Fintech | 40+ LPA target`
+`Senior Mobile Engineer | React Native + Native iOS/Android | Fintech | Open to Senior/Lead/Architect roles`
 
 ### 8. LinkedIn About section.
 3 paragraphs: who (positioning), what (top 3 wins with metrics), what next (open to roles X, Y).
@@ -95,22 +92,22 @@ Notion/Sheet with: company, role, source, applied date, contact, status, next ac
 Positioning one-liner, why switching, current + expected comp range, notice period, location/relocation.
 
 ### 16. Don't disclose comp early.
-Deflect: "I'm targeting roles in the ₹45–55 LPA fixed band based on the scope; happy to align once I understand the role." Force them to anchor.
+Deflect: "I'm targeting roles at the [Senior/Staff/Lead] band for this scope; happy to align once I understand the role." Force them to anchor.
 
 ### 17. Negotiation principles.
 Multiple offers > single. Ask for time. Anchor high (~10–15% above target). Negotiate base + RSU + signing + variable separately.
 
 ### 18. Handling lowball.
-"I appreciate the offer. Based on competing conversations and the seniority of this role, I was expecting closer to ₹X. Can we revisit?"
+"I appreciate the offer. Based on competing conversations and the seniority of this role, I was expecting closer to [your researched band]. Can we revisit?"
 
 ### 19. Counter offer email template.
-Brief, specific, professional. Include: thanks, current comp ranges from market / competing, specific ask (e.g., +₹4 LPA fixed + faster vest), willingness to commit on agreement.
+Brief, specific, professional. Include: thanks, current market / competing data, specific ask (a fixed-comp delta + faster vest, etc.), willingness to commit on agreement.
 
 ### 20. ESOPs / RSUs — value calculation.
 Discount aggressively for startups (50–80% haircut on paper value). For listed/late-stage, treat at vesting price. Always ask: 4-yr vs 3-yr vest, cliff, refresher policy.
 
 ### 21. Variable / bonus negotiation.
-Push for higher fixed; variable is policy-dependent. Target fixed = 80%+ of CTC.
+Push for higher fixed; variable is policy-dependent. Target fixed = 80%+ of total comp.
 
 ### 22. Joining bonus / sign-on.
 Use to bridge notice-period gap or pending bonus loss. 1–2 months base typical.
