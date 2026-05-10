@@ -57,6 +57,8 @@ monofont: "Menlo"
 - [S30 — Privacy, Compliance & Trust](#s30--privacy-compliance--trust)
 - [S31 — Career Strategy](#s31--career-strategy)
 
+<div class="page-break"></div>
+
 <!-- ===== S01-javascript-typescript.md ===== -->
 
 # S1 — JavaScript & TypeScript
@@ -1457,6 +1459,8 @@ Q4, Q5, Q6, S09 (networking), S11 (offline-first storage migrations).
 > Cross-refs: `docs/02-javascript-core.md`, `docs/03-typescript.md`, S04 (RuntimeScheduler), S07 (perf), S08 (state), S09 (networking), S11 (offline storage).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S02-react-19.md ===== -->
 
 # S2 — React 19+ and React Compiler
@@ -2431,6 +2435,8 @@ Q1 (Compiler), Q2 (Concurrent), Q4 (Suspense), S4 (Fabric commit/mount), S7 (per
 ### Revision Notes
 > Reconciliation diffs new elements vs Fiber tree; Fiber is mutable work-unit tree enabling concurrent + hooks; React 18+ batches everywhere; render is pure, commit is atomic, effects fire after.
 
+
+<div class="page-break"></div>
 
 <!-- ===== S03-react-native-core.md ===== -->
 
@@ -4172,6 +4178,8 @@ Android 15+ mandatory edge-to-edge is a forcing function — apps that don't mig
 > **End of S3.** Cross-refs: S4 (Fabric, JSI, threading), S7 (FPS / TTI), S15 (native bridging for keyboard internals). Next deep section: [S08 State Management](S08-state-management.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S04-new-architecture.md ===== -->
 
 # S4 — React Native New Architecture
@@ -5321,6 +5329,8 @@ Q1–Q5, S16 (architecture), S20 (release engineering), S27 (runbooks).
 ### Revision Notes
 > Interop Layer = compat shim letting legacy modules/views run under Bridgeless+Fabric; transitional, not a destination; migrate hot paths first; track as a release metric.
 
+
+<div class="page-break"></div>
 
 <!-- ===== S05-expo-tooling.md ===== -->
 
@@ -6926,6 +6936,8 @@ The mature take: **standardize on Expo Modules** unless a strong reason otherwis
 > **End of S5.** Cross-refs: [appendix J](../appendix/J-expo-router-config-plugins.md), [S20 CI/CD](S20-cicd-releases.md), [S15 native bridging](S15-native-bridging.md), [S04 New Architecture](S04-new-architecture.md). Next deep section per priority: [S12 Push & Background](S12-push-background.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S06-hermes-metro.md ===== -->
 
 # S6 — Hermes & Metro
@@ -7798,6 +7810,8 @@ S17 (testing/debugging), S18 (observability), S20 (CI/CD), S27 (runbooks).
 ### Revision Notes
 > Hermes ships bytecode → must upload source maps + dSYM (iOS) + ProGuard mapping (Android) keyed by release; OTA updates need their own map; CI gate to enforce.
 
+
+<div class="page-break"></div>
 
 <!-- ===== S07-performance.md ===== -->
 
@@ -8890,6 +8904,8 @@ S6 (Hermes), S20 (CI/CD), S30 (compliance — privacy manifests can grow size if
 ### Revision Notes
 > Ship AAB (Android) / Thinned (iOS); R8 minify + shrink resources; prune locales; audit native deps; CI size budget; on-demand resources for large optional assets.
 
+
+<div class="page-break"></div>
 
 <!-- ===== S08-state-management.md ===== -->
 
@@ -10769,6 +10785,8 @@ Org-level: have one offline subsystem owned by a foundation team; per-feature te
 > **End of S8.** Cross-refs: S2 (React 19 Actions), S9 (networking), S11 (offline-first), S22 (system design). Next deep section: [S09 Networking](S09-networking.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S09-networking.md ===== -->
 
 # S9 — Networking
@@ -12564,6 +12582,8 @@ The 2026 specific: with Apple's Privacy Manifests and Google's similar moves, tr
 
 > **End of S9.** Cross-refs: S8 (mutation queues), S10 (auth/security), S11 (offline), S15 (native modules), S18 (observability). Next deep section: [S15 Native Bridging](S15-native-bridging.md).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S10-auth-security.md ===== -->
 
@@ -14570,6 +14590,8 @@ Org-level: maintain a security-champion program (one champion per team); review 
 
 > **End of S10.** Cross-refs: S9 (TLS, pinning), S15 (native bridging for biometric/attestation), S11 (offline storage encryption), S30 (privacy manifests, ATT). Next deep section: [S11 Offline-First](S11-offline-first.md).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S11-offline-first.md ===== -->
 
@@ -16694,6 +16716,8 @@ The 2026 specific: **prefer hosted sync engines** unless your domain demands cus
 > **End of S11.** Cross-refs: S8 (state), S9 (networking, retries), S10 (encryption-at-rest, biometric step-up for sensitive sync), S22 (system design). Next deep section: [S12 Push & Background](S12-push-background.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S12-push-notifications.md ===== -->
 
 # S12 — Push Notifications & Background
@@ -18066,6 +18090,8 @@ The mature take: every push has an SLO and a postmortem if delivery drops > 5% w
 
 > **End of S12.** Cross-refs: [S11 Offline-First](S11-offline-first.md) (queue), [S15 Native Bridging](S15-native-bridging.md) (NSE target), [S30 Privacy](S30-privacy-compliance.md) (consent). Next per priority: [S17 Testing](S17-testing.md).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S13-android-kotlin.md ===== -->
 
@@ -19482,6 +19508,8 @@ Senior teams pick interop direction by team / migration goals, not aesthetic. Ea
 > **End of S13.** Cross-refs: [S4 New Architecture](S04-new-architecture.md), [S15 Native Bridging](S15-native-bridging.md), [S20 CI/CD](S20-cicd-release.md), [S14 iOS & Swift](S14-ios-swift.md). Next per priority: [S14 iOS & Swift](S14-ios-swift.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S14-ios-swift.md ===== -->
 
 # S14 — iOS + Swift (for React Native engineers)
@@ -20523,6 +20551,8 @@ Q4, S10 (security), S30 (privacy / compliance).
 
 > Cross-refs: S10 (auth + Keychain), S12 (push), S15 (TurboModules in Swift), S20 (release / signing), S30 (privacy).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S15-native-bridging.md ===== -->
 
@@ -22510,6 +22540,8 @@ Org-level: own a small library of internal Frame Processor Plugins (resize, colo
 > **End of S15.** Cross-refs: S4 (New Arch internals), S5 (Expo Modules API), S3 (Reanimated, Skia), S7 (perf budgets), S30 (privacy declarations). Next deep section: [S10 Auth & Security](S10-auth-security.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S16-architecture-scaling.md ===== -->
 
 # S16 — Architecture & Scaling
@@ -23512,6 +23544,8 @@ Q1, S08 (state), S21 (more SDUI patterns).
 
 > Cross-refs: S01 (Zod), S05 (Expo), S08 (state), S15 (TurboModules), S20 (CI), S21 (SDUI deep dive).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S17-testing-debugging.md ===== -->
 
@@ -24852,6 +24886,8 @@ Senior engineers think about memory the way they think about money: budget per s
 > **End of S17.** Cross-refs: [S6 Hermes & Metro](S06-hermes-metro.md), [S7 Performance](S07-performance.md), [S18 Observability](S18-observability.md), [S20 CI/CD](S20-cicd-release.md). Next per priority: [S18 Observability](S18-observability.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S18-observability.md ===== -->
 
 # S18 — Observability
@@ -26128,6 +26164,8 @@ End-to-end tracing is **the** observability investment. Senior teams ensure ever
 > **End of S18.** Cross-refs: [S6 Hermes & Metro](S06-hermes-metro.md) (sourcemaps), [S17 Testing](S17-testing-debugging.md) (Sentry crashes), [S20 CI/CD](S20-cicd-release.md) (release gating), [S27 Runbooks](S27-runbooks.md). Next per priority: [S20 CI/CD](S20-cicd-release.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S19-accessibility-i18n.md ===== -->
 
 # S19 — Accessibility & Internationalization
@@ -27044,6 +27082,8 @@ Q4, S30 (privacy across regions).
 
 > Cross-refs: S04 (Fabric a11y), S29 (cross-target including TV/visionOS), S05 (Expo).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S20-cicd-release.md ===== -->
 
@@ -28360,6 +28400,8 @@ Senior orgs treat reviewers as customers — clear release notes, working demo, 
 > **End of S20.** Cross-refs: [S5 Expo & Tooling](S05-expo-tooling.md), [S6 Hermes & Metro](S06-hermes-metro.md) (sourcemaps), [S18 Observability](S18-observability.md) (SLO gates), [S27 Runbooks](S27-runbooks.md), [S30 Privacy](S30-privacy-compliance.md). Next per priority: [S30 Privacy](S30-privacy-compliance.md).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S21-sdui.md ===== -->
 
 # S21 — Server-Driven UI
@@ -29311,6 +29353,8 @@ Q1, Q2, S07 (perf), S08 (state).
 
 > Cross-refs: S07 (perf), S08 (state), S16-Q5 (basic SDUI), S20 (release).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S22-system-design.md ===== -->
 
@@ -31361,6 +31405,8 @@ The 2026 specific: **AV1 delivery** saves ~30% bandwidth; **expo-video** is the 
 > **End of S22.** Next deep section per priority: [S05 Expo & Tooling](S05-expo-tooling.md). Cross-refs throughout point to the relevant deep sections in S7/S9/S10/S11/S15/S16.
 
 
+<div class="page-break"></div>
+
 <!-- ===== S23-machine-coding.md ===== -->
 
 # S23 — Machine Coding (60–90 min builds)
@@ -32274,6 +32320,8 @@ Q1, Q4, S08, S11.
 
 > Cross-refs: S07 (perf), S08 (state), S11 (offline).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S24-dsa.md ===== -->
 
@@ -33198,6 +33246,8 @@ Q1, Q3.
 > Cross-refs: S01 (data structures in JS), S07 (perf).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S25-behavioral.md ===== -->
 
 # S25 — Behavioral & Leadership
@@ -34119,6 +34169,8 @@ Q1, Q3, Q4.
 
 > Cross-refs: S31 (career), S22 (system design tone), S26 (AI-assisted).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S26-ai-assisted.md ===== -->
 
@@ -35057,6 +35109,8 @@ Q1, Q4, S20 (CI).
 
 > Cross-refs: S01 (TS), S17 (testing), S20 (CI).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S27-runbooks.md ===== -->
 
@@ -36017,6 +36071,8 @@ Q1, Q2, Q3, S25.
 > Cross-refs: S18 (observability), S20 (CI/CD), S25 (behavioral).
 
 
+<div class="page-break"></div>
+
 <!-- ===== S28-study-plans.md ===== -->
 
 # S28 — Study Plans
@@ -36894,6 +36950,8 @@ N/A.
 
 > Cross-refs: S31 (career), all sections (memory hooks), S25 (behavioral).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S29-cross-target.md ===== -->
 
@@ -38005,6 +38063,8 @@ Q1, Q4, S20.
 
 > Cross-refs: S05 (Expo), S20 (CI), S22 (system design).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S30-privacy-compliance.md ===== -->
 
@@ -39420,6 +39480,8 @@ Senior teams build consent into the bootstrap, not retrofit. They run tests asse
 
 > **End of S30.** Cross-refs: [S10 Auth & Security](S10-auth-security.md), [S12 Push & Background](S12-push-background.md), [S18 Observability](S18-observability.md), [S20 CI/CD](S20-cicd-release.md). Next per priority: [S13 Android & Kotlin](S13-android-kotlin.md).
 
+
+<div class="page-break"></div>
 
 <!-- ===== S31-career-strategy.md ===== -->
 
