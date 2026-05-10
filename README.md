@@ -9,6 +9,27 @@ This repo is the single source of truth for the prep. The original monolithic pl
 
 ---
 
+## ⭐ NEW: The 2026 Engineering Handbook (`handbook/`)
+
+> **Primary source of truth for 2026 onward.** Built from [final-prompt.md](final-prompt.md) — 31 sections covering React Native engineering from beginner intuition through staff/architect-level system design. Every Q-topic follows the mandatory 25+ subsection format (TL;DR → 30s/2min/5min answers → Internal Working → Production Failure Story → Memory Hook → Revision Notes).
+
+**Start here:** [handbook/README.md](handbook/README.md)
+
+| Layer | Sections |
+|---|---|
+| **Career & foundations** | [S00 Career Strategy](handbook/S00-career-strategy.md) · [S01 JS/TS](handbook/S01-javascript-typescript.md) · [S02 React 19](handbook/S02-react-19.md) |
+| **RN core + architecture** | [S03 RN Core](handbook/S03-react-native-core.md) · [S04 New Architecture](handbook/S04-new-architecture.md) · [S05 Expo](handbook/S05-expo-tooling.md) · [S06 Hermes/Metro](handbook/S06-hermes-metro.md) |
+| **Performance + state** | [S07 Performance](handbook/S07-performance.md) · [S08 State](handbook/S08-state-management.md) · [S09 Networking](handbook/S09-networking.md) |
+| **Auth, offline, push** | [S10 Auth/Security](handbook/S10-auth-security.md) · [S11 Offline-first](handbook/S11-offline-first.md) · [S12 Push](handbook/S12-push-notifications.md) |
+| **Native + bridging** | [S13 Android/Kotlin](handbook/S13-android-kotlin.md) · [S14 iOS/Swift](handbook/S14-ios-swift.md) · [S15 Native Bridging](handbook/S15-native-bridging.md) |
+| **Architecture + ops** | [S16 Scaling](handbook/S16-architecture-scaling.md) · [S17 Testing](handbook/S17-testing-debugging.md) · [S18 Observability](handbook/S18-observability.md) · [S19 a11y/i18n](handbook/S19-accessibility-i18n.md) · [S20 CI/CD](handbook/S20-cicd-release.md) |
+| **System design + interviews** | [S21 SDUI](handbook/S21-sdui.md) · [S22 System Design](handbook/S22-system-design.md) · [S23 Machine Coding](handbook/S23-machine-coding.md) · [S24 DSA](handbook/S24-dsa.md) · [S25 Behavioral](handbook/S25-behavioral.md) |
+| **Modern + cross-target** | [S26 AI-Assisted](handbook/S26-ai-assisted.md) · [S27 Runbooks](handbook/S27-runbooks.md) · [S28 Study Plans](handbook/S28-study-plans.md) · [S29 Cross-Target](handbook/S29-cross-target.md) · [S30 Privacy/Compliance](handbook/S30-privacy-compliance.md) |
+
+**Relationship to legacy `docs/`:** The `docs/` chapters and appendices remain as a curated 45-day day-by-day plan ([THE-PLAN.md](THE-PLAN.md)). The `handbook/` is the deeper reference book — use the day-by-day plan to schedule your prep, and dive into the matching `handbook/SXX-*.md` for full depth on each topic.
+
+---
+
 ## How to use this repo
 
 1. **Open [THE-PLAN.md](THE-PLAN.md)** and follow Days 1 → 45 in order.
