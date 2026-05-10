@@ -12,8 +12,8 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 
 | #   | Section                                                                              | Status      |
 | --- | ------------------------------------------------------------------------------------ | ----------- |
-| S0  | [Career Strategy](S00-career-strategy.md)                                            | scaffold    |
-| S1  | [JavaScript & TypeScript](S01-javascript-typescript.md)                              | scaffold    |
+| S0  | [Career Strategy](S00-career-strategy.md)                                            | **content** |
+| S1  | [JavaScript & TypeScript](S01-javascript-typescript.md)                              | **content** |
 | S2  | [React 19 + React Compiler](S02-react-19.md)                                         | **content** |
 | S3  | [React Native Core](S03-react-native-core.md)                                        | **content** |
 | S4  | [New Architecture (JSI/Fabric/TurboModules/Bridgeless)](S04-new-architecture.md)     | **content** |
@@ -25,23 +25,23 @@ Each section file contains numbered **Q-topics** (`Q1`, `Q2`, …). Every Q-topi
 | S10 | [Auth & Security](S10-auth-security.md)                                              | **content** |
 | S11 | [Offline-first Systems](S11-offline-first.md)                                        | **content** |
 | S12 | [Push Notifications](S12-push-notifications.md)                                      | **content** |
-| S13 | [Android + Kotlin](S13-android-kotlin.md)                                            | scaffold    |
-| S14 | [iOS + Swift](S14-ios-swift.md)                                                      | scaffold    |
+| S13 | [Android + Kotlin](S13-android-kotlin.md)                                            | **content** |
+| S14 | [iOS + Swift](S14-ios-swift.md)                                                      | **content** |
 | S15 | [Native Bridging](S15-native-bridging.md)                                            | **content** |
-| S16 | [Architecture & Scaling](S16-architecture-scaling.md)                                | scaffold    |
+| S16 | [Architecture & Scaling](S16-architecture-scaling.md)                                | **content** |
 | S17 | [Testing & Debugging](S17-testing-debugging.md)                                      | **content** |
 | S18 | [Observability](S18-observability.md)                                                | **content** |
-| S19 | [Accessibility & i18n](S19-accessibility-i18n.md)                                    | scaffold    |
+| S19 | [Accessibility & i18n](S19-accessibility-i18n.md)                                    | **content** |
 | S20 | [CI/CD & Release Engineering](S20-cicd-release.md)                                   | **content** |
-| S21 | [Server-Driven UI](S21-sdui.md)                                                      | scaffold    |
+| S21 | [Server-Driven UI](S21-sdui.md)                                                      | **content** |
 | S22 | [System Design (Mobile)](S22-system-design.md)                                       | **content** |
-| S23 | [Coding Rounds (Machine Coding)](S23-machine-coding.md)                              | scaffold    |
-| S24 | [DSA for Mobile](S24-dsa.md)                                                         | scaffold    |
-| S25 | [Behavioral Interviews](S25-behavioral.md)                                           | scaffold    |
-| S26 | [AI-Assisted Engineering](S26-ai-assisted.md)                                        | scaffold    |
-| S27 | [Production Runbooks](S27-runbooks.md)                                               | scaffold    |
-| S28 | [Study Plans](S28-study-plans.md)                                                    | scaffold    |
-| S29 | [Cross-Target RN (Web/macOS/visionOS/TV)](S29-cross-target.md)                       | scaffold    |
+| S23 | [Coding Rounds (Machine Coding)](S23-machine-coding.md)                              | **content** |
+| S24 | [DSA for Mobile](S24-dsa.md)                                                         | **content** |
+| S25 | [Behavioral Interviews](S25-behavioral.md)                                           | **content** |
+| S26 | [AI-Assisted Engineering](S26-ai-assisted.md)                                        | **content** |
+| S27 | [Production Runbooks](S27-runbooks.md)                                               | **content** |
+| S28 | [Study Plans](S28-study-plans.md)                                                    | **content** |
+| S29 | [Cross-Target RN (Web/macOS/visionOS/TV)](S29-cross-target.md)                       | **content** |
 | S30 | [Privacy, Compliance & Trust](S30-privacy-compliance.md)                             | **content** |
 
 > **scaffold** = section index + topic list + Q-topic stubs; content to be filled in next iterations.
