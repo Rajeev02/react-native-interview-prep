@@ -67,3 +67,102 @@
 
 ---
 
+
+
+---
+
+## Top 25 Q&A — Accessibility, color, fonts, i18n
+
+### 1. Why does a11y matter beyond compliance?
+Bigger TAM, App Store ratings, India RBI / WCAG mandates for fintech, better UX for everyone (one-handed use, low light, etc.).
+
+### 2. Core RN a11y props.
+`accessible`, `accessibilityLabel`, `accessibilityHint`, `accessibilityRole`, `accessibilityState`, `accessibilityValue`, `accessibilityActions`.
+
+### 3. Make a custom button accessible.
+```jsx
+<Pressable accessible accessibilityRole="button" accessibilityLabel="Pay 1000 rupees"
+  accessibilityHint="Initiates UPI payment" onPress={pay} />
+```
+
+### 4. Common a11y bugs.
+Image-only buttons without label, color-only state (red/green), low contrast (<4.5:1), missing focus order, untranslated labels.
+
+### 5. Test screen reader on iOS / Android.
+iOS VoiceOver: Settings → Accessibility → VoiceOver, swipe right/left. Android TalkBack: similar. Triple-click home for shortcut.
+
+### 6. Color contrast rules.
+WCAG AA: 4.5:1 for normal text, 3:1 for large (≥18pt or 14pt bold). AAA: 7:1 / 4.5:1. Test with Stark / WebAIM contrast checker.
+
+### 7. Dark mode.
+`useColorScheme()` hook. Define semantic tokens (bg, fg, surface) mapped to light/dark. Avoid hardcoded `#fff`.
+
+### 8. Dynamic type / font scaling.
+RN respects user font size by default. Test at largest accessibility size. Cap with `maxFontSizeMultiplier` for layout-critical text.
+
+### 9. RTL languages (Hindi/Arabic).
+`I18nManager.allowRTL(true)` + `forceRTL` based on locale. Layouts mirror; check icons (chevrons), use `start/end` instead of `left/right`.
+
+### 10. i18n libs in RN.
+`i18next` + `react-i18next`, `react-intl`, or `lingui`. Pluralization, interpolation, lazy-load namespaces.
+
+### 11. Lazy load translations.
+Split JSON per route; load on navigation. Reduces bundle ~30% for multi-language apps.
+
+### 12. Detect device language.
+`Intl.getCanonicalLocales()`, `expo-localization`, `react-native-localize`. Fallback chain: device → user pref → app default.
+
+### 13. Date/time/number formatting.
+Use `Intl.DateTimeFormat`, `Intl.NumberFormat` (Hermes 0.74+ has full Intl). Avoid moment for size; date-fns/dayjs with locales.
+
+### 14. Currency formatting.
+```ts
+new Intl.NumberFormat('en-IN', { style:'currency', currency:'INR' }).format(125000); // ₹1,25,000.00
+```
+
+### 15. Pluralization.
+i18next `count` param + `_one`/`_other`/etc. keys. Avoid string concat.
+
+### 16. Accessible forms.
+Group label + input with `accessibilityLabel`. Show error via `accessibilityLiveRegion="polite"` and tied to input.
+
+### 17. Tab order / focus management.
+RN doesn't auto-manage focus across screens. Use `AccessibilityInfo.setAccessibilityFocus(reactTag)` after navigation to set focus to header/title.
+
+### 18. Animation + reduced motion.
+`AccessibilityInfo.isReduceMotionEnabled()` → skip non-essential animations or use cross-fade only.
+
+### 19. Touch target size.
+Min 44×44pt iOS / 48dp Android. Wrap small icons with `hitSlop`.
+
+### 20. Custom fonts.
+iOS: add to `Info.plist` `UIAppFonts`. Android: place in `assets/fonts` + `react-native.config.js` `assets`. Use `expo-font` for Expo.
+
+### 21. Variable fonts.
+Supported (RN 0.74+). Use `fontVariationSettings` style prop for weight/width.
+
+### 22. Right-to-left mirroring exceptions.
+Numbers, brand logos, media controls — don't mirror. Use `I18nManager.isRTL` to conditionally style.
+
+### 23. Test a11y in CI.
+`@react-native-community/eslint-plugin-a11y`, manual TalkBack/VoiceOver passes per release. Storybook a11y addon for components.
+
+### 24. Color-blind friendly palette.
+Avoid red/green only signals; pair with icons or patterns. Use tools like Sim Daltonism. Status colors = red + ✕ icon, green + ✓.
+
+### 25. End-to-end example: accessible OTP input.
+```jsx
+<View accessibilityLabel="Enter 6-digit OTP">
+  {digits.map((d,i)=> (
+    <TextInput key={i}
+      value={d}
+      keyboardType="number-pad"
+      textContentType="oneTimeCode"
+      autoComplete="sms-otp"
+      maxLength={1}
+      accessibilityLabel={`Digit ${i+1}`}
+      onChangeText={v=>setDigit(i,v)}
+    />
+  ))}
+</View>
+```

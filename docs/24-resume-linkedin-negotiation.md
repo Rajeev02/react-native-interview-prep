@@ -42,3 +42,84 @@ Full plan: [job-market-2026-top20-plan.md](job-market-2026-top20-plan.md). 30-da
 
 ---
 
+
+
+---
+
+## Top 25 Q&A — Resume, LinkedIn, applications, negotiation
+
+### 1. One-line resume positioning?
+"Senior Mobile / RN Tech Lead, 9+ YOE, fintech (LetsVenture). End-to-end iOS+Android ownership: auth, payments, deep linking, observability."
+
+### 2. Optimal resume length?
+1 page for ≤10 YOE, 2 pages max. Hiring managers spend 20–30s on first pass.
+
+### 3. Resume ordering.
+Header → 2-line summary → Experience (most recent first, with impact bullets) → Skills → Education → Side projects.
+
+### 4. Bullet format.
+**Action verb + what + how + measurable impact.**
+"Migrated RN 0.66→0.74 enabling Hermes+Fabric — cold start 3.2s→1.4s for 250K MAU app."
+
+### 5. Avoid resume anti-patterns.
+"Worked on…", "Responsible for…", no metrics, generic skills section, photo, table layout (ATS-breaks), more than 1 page for IC roles.
+
+### 6. ATS-friendly format.
+Plain single-column text, no fancy fonts, save as PDF (text-based), include keywords from JD verbatim.
+
+### 7. LinkedIn headline formula.
+`Senior Mobile Engineer | React Native + Native iOS/Android | Fintech | 40+ LPA target`
+
+### 8. LinkedIn About section.
+3 paragraphs: who (positioning), what (top 3 wins with metrics), what next (open to roles X, Y).
+
+### 9. Open-to-work on LinkedIn?
+On for recruiters only (private). Avoid public banner — signals desperation to current employer.
+
+### 10. Sourcing channels (India, 2026).
+LinkedIn (~50%), Naukri (~20%), referrals (~20%), founder networks/AngelList (~10%). Always referrals first.
+
+### 11. How to ask for a referral.
+"Hi <name>, your team's <product> is the kind of mobile work I want to do. I'd be a strong fit because <2 lines>. Would you be open to referring me? Resume attached."
+
+### 12. Cold email to recruiter.
+Subject: `Senior RN Engineer | 9 YOE | Fintech | <city>` — short body with positioning + 2 metrics + ask.
+
+### 13. Application velocity.
+Quality > volume. 5 well-targeted applications/week beats 30 spray-and-pray.
+
+### 14. Tracking pipeline.
+Notion/Sheet with: company, role, source, applied date, contact, status, next action, comp band, notes.
+
+### 15. Recruiter screen — what to nail.
+Positioning one-liner, why switching, current + expected comp range, notice period, location/relocation.
+
+### 16. Don't disclose comp early.
+Deflect: "I'm targeting roles in the ₹45–55 LPA fixed band based on the scope; happy to align once I understand the role." Force them to anchor.
+
+### 17. Negotiation principles.
+Multiple offers > single. Ask for time. Anchor high (~10–15% above target). Negotiate base + RSU + signing + variable separately.
+
+### 18. Handling lowball.
+"I appreciate the offer. Based on competing conversations and the seniority of this role, I was expecting closer to ₹X. Can we revisit?"
+
+### 19. Counter offer email template.
+Brief, specific, professional. Include: thanks, current comp ranges from market / competing, specific ask (e.g., +₹4 LPA fixed + faster vest), willingness to commit on agreement.
+
+### 20. ESOPs / RSUs — value calculation.
+Discount aggressively for startups (50–80% haircut on paper value). For listed/late-stage, treat at vesting price. Always ask: 4-yr vs 3-yr vest, cliff, refresher policy.
+
+### 21. Variable / bonus negotiation.
+Push for higher fixed; variable is policy-dependent. Target fixed = 80%+ of CTC.
+
+### 22. Joining bonus / sign-on.
+Use to bridge notice-period gap or pending bonus loss. 1–2 months base typical.
+
+### 23. Reference checks.
+Pick 2 — most recent manager + a peer/skip-level. Brief them on the role. Ask permission first.
+
+### 24. Resigning gracefully.
+30-day notice if possible (per contract). Letter, transition doc, knowledge transfer plan, no negativity. Burn no bridges.
+
+### 25. First 90 days plan (often asked).
+30 days listen + ramp. 60 days own a small win (perf fix, observability dashboard). 90 days deliver a meaningful feature + earn trust for bigger scope.

@@ -32,3 +32,102 @@
 
 ---
 
+
+
+---
+
+## Top 25 Q&A — Push notifications
+
+### 1. APNs vs FCM.
+APNs (Apple Push Notification service) for iOS. FCM (Firebase Cloud Messaging) for Android (and can wrap APNs for unified server send).
+
+### 2. Common RN libs?
+`@react-native-firebase/messaging` (cross-platform via FCM), `notifee` (rich local + interaction), Expo `expo-notifications`.
+
+### 3. Token lifecycle.
+Get FCM/APNs token on app start → send to server tied to user + device. Refresh on token rotation. Delete on logout.
+
+### 4. iOS permission flow.
+`requestPermission()` → triggers system prompt once. After deny, must direct user to Settings. iOS supports provisional auth (silent).
+
+### 5. Android 13+ permission.
+`POST_NOTIFICATIONS` runtime permission required. Older Android auto-grants.
+
+### 6. Foreground vs background vs killed delivery.
+- Foreground: handler runs, no system tray by default — show via Notifee.
+- Background: system shows notification; tap opens app via deep link.
+- Killed: similar to background; on iOS may not deliver if user force-quit.
+
+### 7. Data-only ("silent") push.
+`content_available: true` (iOS), `priority: 'high'` + no `notification` block (Android). Wakes app for sync; iOS gives ~30s.
+
+### 8. Notification categories / actions.
+Define actionable buttons (Reply, Mark read). iOS: `UNNotificationCategory`. Android: action buttons in notification builder. Notifee abstracts both.
+
+### 9. Deep link from notification.
+Include URL/screen + params in payload. On tap, app reads `notification.data` → `Linking.openURL(data.url)` or `navigation.navigate(...)`.
+
+### 10. Handling notification when app cold-started by tap.
+`messaging().getInitialNotification()` returns the launching notification (or null). Route accordingly after auth check.
+
+### 11. Notifee local notifications.
+```ts
+await notifee.displayNotification({
+  title: 'Order shipped',
+  body: 'Your order #123 is on the way',
+  android: { channelId: 'orders', smallIcon: 'ic_stat' },
+  data: { orderId: '123' },
+});
+```
+
+### 12. Android notification channels.
+Required since Oreo. Create channels for orders, marketing, etc. with importance/sound. User can mute per-channel.
+
+### 13. iOS notification service extension.
+Separate target to mutate payload before display (decrypt, fetch image, custom sound). Required for media attachments.
+
+### 14. iOS notification content extension.
+Custom UI on long-press / banner expand. Storyboard + `UNNotificationContentExtension`.
+
+### 15. Push topic vs token messaging.
+Topic: broadcast to subscribers. Token: targeted single device. Use topic for marketing, token for transactional.
+
+### 16. Throttling / quiet hours.
+Server-side scheduling. Respect timezone. Marketing channel respects user setting; transactional always sends.
+
+### 17. Rich push (image / video).
+APNs: media via service extension. FCM: `image` field auto-displayed Android 6+. Cap image size (~1 MB).
+
+### 18. Test push locally.
+Firebase console "send test message", `xcrun simctl push booted bundle.id payload.apns`, Expo push tool.
+
+### 19. Push reliability — what factors?
+Battery optimization (Doze, App Standby), background restrictions on Chinese OEMs, user notification settings, FCM throttling for non-critical.
+
+### 20. Detecting whether a device received a push.
+Server logs FCM/APNs response. Client: optional ack endpoint hit on receive (sparingly — costs delivery time).
+
+### 21. Push token unregister on logout.
+Call `messaging().deleteToken()` and notify server. Otherwise next user gets previous user's pushes.
+
+### 22. Encrypt push payloads?
+Yes for sensitive data. Send encrypted blob with kid; client decrypts via key in Keychain. Or send only ID + fetch payload.
+
+### 23. iOS App Attest with push.
+Bind push token to device attestation; server validates before storing.
+
+### 24. Background message handler in RN Firebase.
+```ts
+// index.js (top-level, before AppRegistry)
+messaging().setBackgroundMessageHandler(async msg => {
+  await syncFromPush(msg.data);
+});
+AppRegistry.registerComponent('app', () => App);
+```
+
+### 25. Common pitfalls checklist.
+- Forgot APNs key/cert in Firebase.
+- Not enabling Push Notifications + Background Modes capabilities (Xcode).
+- Wrong iOS bundle id between APNs and Firebase.
+- Channel id mismatch on Android.
+- Foreground notification not displayed (must use Notifee).
