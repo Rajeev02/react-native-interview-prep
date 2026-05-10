@@ -1,4 +1,4 @@
-# MASTER INTERVIEW GUIDE 2026 — Senior / Lead React Native (Rajeev, 9+ YOE, target ₹40+ LPA)
+# MASTER INTERVIEW GUIDE 2026 — Senior / Lead React Native (Rajeev, 9+ YOE)
 
 > **Single source of truth.** Built from your `study/` folder + archived PDFs in `Study-Pre/archive/`, deduped, organized by interview frequency, scoped to Tier S/A India loops (PhonePe, CRED, Razorpay, Groww, Zerodha, Swiggy, Flipkart, Microsoft, Walmart, Atlassian, Coinbase, Booking, etc.).
 >
@@ -41,8 +41,6 @@
 **One-liner**: `Senior Mobile / RN Tech Lead, 9+ YOE, fintech depth (LetsVenture), end-to-end Android+iOS ownership, auth + payments + deep linking + observability.`
 
 **Target roles**: Senior RN Engineer (IC4/SDE-3) → Lead RN Developer → Mobile Tech Lead → Fintech Mobile Lead.
-
-**Comp targets (Bengaluru, 2026)**: ₹40+ LPA floor, ₹45–55 LPA target, ₹55–70 LPA stretch with competing offers. Anchor recruiter at ₹48–55 LPA fixed. Never disclose ₹23 LPA early — say *"low-20s fixed; evaluating ₹45–55 LPA band based on scope"*.
 
 **Top-20 targets**: PhonePe, Razorpay, CRED, Groww, Zerodha, Jupiter, Slice, Freecharge / Swiggy, Zomato, Flipkart, Meesho, Dream11, PharmEasy / Microsoft, Walmart, Atlassian, Coinbase, Booking, Postman/Zeta. Full breakdown: [job-market-2026-top20-plan.md](job-market-2026-top20-plan.md).
 
@@ -1126,19 +1124,9 @@ class LRU {
 ### Application strategy
 1. **Referrals first** (~70% of Tier S/A offers come via referral). Find 2–3 contacts per target on LinkedIn.
 2. Apply in clusters of 5–8/week.
-3. Track: Company / Role / Source / Contact / Applied / Stage / Expected CTC / Next.
+3. Track: Company / Role / Source / Contact / Applied / Stage / Expected band / Next.
 4. Customize Summary line per JD.
 
-### Negotiation (₹40+ LPA target)
-- Walk-away: ₹38 LPA fixed. Target: ₹45 LPA fixed. Stretch: ₹55+ with offers.
-- Recruiter script for "current CTC?": *"My current fixed is in the low-20s; I'm evaluating roles in the ₹45–55 LPA fixed band based on scope and 9 YOE."*
-- Recruiter script for "expected?": *"Looking at ₹48–55 LPA fixed; total comp open depending on RSU/ESOP."*
-- Always run 3+ processes in parallel. One offer = no leverage.
-- Joining bonus: ₹3–8 LPA is fair when leaving variable/RSU on table.
-- Per-tier bands:
-  - **Tier S fintech**: ₹40–60 LPA fixed + 10–25% var + ESOPs.
-  - **Tier A**: ₹38–55 LPA fixed + RSU/ESOP.
-  - **Tier A− globals**: ₹42–65 LPA fixed + ₹15–40 LPA RSU.
 
 ### Risks + mitigations
 - **Capacitor migration narrative** — frame as business decision, not skill regression.
@@ -1171,7 +1159,7 @@ Architected, Authored, Migrated, Owned, Drove, Established, Mentored, Production
 2. Why looking?
 3. What kind of role?
 4. Notice period?
-5. Expected CTC? (anchor high, deflect current.)
+5. Expected band? (anchor on role-level research, deflect current.)
 
 ### Final 24-hr checklist before any loop
 - [ ] Re-read company's product + recent news (30 min).
@@ -1216,40 +1204,13 @@ Architected, Authored, Migrated, Owned, Drove, Established, Mentored, Production
 
 > Skip-or-deprioritize: pure-Android-only shops, generic services companies (TCS/Infy/Wipro mobile), early seed startups under 2 YOE founders.
 
-### What ₹40+ LPA actually requires
-
-| Bar | What it means | Where you stand |
-|---|---|---|
-| 8+ YOE | Yes, 9+ ✅ | clear |
-| Senior or Lead title in interview | Position as Lead RN / Mobile Tech Lead | needs LinkedIn/resume update |
-| 1–2 strong domain stories with numbers | Fintech (LetsVenture) ✅ — but quantify | story polish needed |
-| Clear new-arch / perf vocabulary | Fabric, TurboModules, JSI, Hermes, FlashList | medium gap, ~1 wk |
-| Clean DSA medium round | LeetCode mediums | refresh needed, ~3–4 wks |
-| 1 mobile system design rehearsed | Offline-first fintech | gap, ~1 wk |
-| Competing offers | 2+ in-flight at decision time | strategy, not skill |
-
-If you hit the first 6, **₹40 LPA is the floor offer**. The 7th (competing offers) pushes ₹40 → ₹50+.
-
-### Why the ₹23 → ₹40+ jump works
-1. You are likely **underpaid for 9 YOE fintech RN** in Bengaluru — market rate is ₹35–45 LPA fixed.
-2. Switch hikes are calculated on **market rate**, not current CTC, when the candidate is in demand.
-3. **Lead-track positioning** (not Senior IC) adds ₹8–15 LPA on the same skills.
-4. **Fintech domain premium** is real — PhonePe/CRED/Razorpay pay 20–30% above generic product cos.
-5. **Competing offers** convert ₹35 LPA offers into ₹45 LPA offers in 2–3 days.
-
-### What can break it
-- Accepting the first offer.
-- Disclosing current CTC too early (anchors them low).
-- Targeting only Senior IC roles instead of Lead.
-- Going to services companies / mid-tier startups — bands cap at ₹30–35 LPA.
-- Weak DSA (1 round failure can drop the band by ₹5–10 LPA).
 
 ### Application strategy
 1. **Referrals > portals.** ~70% of Tier S/A senior offers come via referrals. For each target, find 2–3 ex-colleagues / 2nd-degree connections on LinkedIn, send a short DM.
 2. **Apply in clusters of 5–8 cos/week**, not 30 at once.
 3. **Customize the Summary line** of the resume per company.
-4. **Track everything** in a sheet: company, contact, applied date, stage, expected CTC, next step.
-5. **Negotiate hard but kindly.** 9 YOE + fintech + lead signal = top 5–10% of RN talent in India.
+4. **Track everything** in a sheet: company, contact, applied date, stage, expected band, next step.
+5. **Negotiate hard but kindly.** Senior+ RN engineers with deep fintech / native interop are scarce — you have leverage.
 
 ### Honest risks to manage
 - **Capacitor migration** can be read as "moved away from RN" — own the narrative: business decision, not skill regression.
@@ -1304,7 +1265,7 @@ If you hit the first 6, **₹40 LPA is the floor offer**. The 7th (competing off
 - **Day 24 — DSA focused day**: 8 LeetCode mediums covering all patterns + LRU cache from scratch. → Section 22.
 - **Day 25 — Behavioral + STAR**: prepare 10 stories in 45-sec + 3-min versions. Record. → Section 23 + Appendix E.
 - **Day 26 — Resume, LinkedIn, applications**: rewrite resume per Appendix C, update LinkedIn per Appendix D, set Open-to-Work, apply to **Tier S top 8** with referrals, send 10 referral DMs.
-- **Day 27 — Apply Tier A + recruiter screen prep**: apply to **Tier A 6 cos**, prep 5 recruiter answers cold (TMAY, why looking, notice, expected CTC, current CTC deflection).
+- **Day 27 — Apply to next batch + recruiter screen prep**: apply to **6 companies**, prep 5 recruiter answers cold (TMAY, why looking, notice, expected band, current-number deflection).
 - **Day 28 — Full mock day**: recruiter (15 min) → DSA (1 medium) → RN deep dive → System design (45 min) → Behavioral (5 STAR) → Retro.
 - **Day 29 — Weak-area repair**: pick top 3 gaps from Day 28, re-read those sections, rehearse 5x. Apply to **Tier A− globals**.
 - **Day 30 — Cheatsheet review + go live**: skim Section 25, refresh top-50 Qs, rest. **Day 31 onwards: interview season.**
@@ -1334,7 +1295,7 @@ If you hit the first 6, **₹40 LPA is the floor offer**. The 7th (competing off
 1. **Speak answers aloud** every day. Reading is not preparing.
 2. **Build the hands-on artifact** for each day. Have a repo to show.
 3. **Quote numbers** from your own work.
-4. **Don't disclose ₹23 LPA** to recruiters. Anchor at ₹45–55 LPA fixed.
+4. **Don't disclose your current number** to recruiters early. Anchor on the role-level band you researched.
 5. **Run 3+ processes in parallel** in week 5.
 6. **Sleep 7+ hrs**.
 
@@ -1346,7 +1307,6 @@ If you hit the first 6, **₹40 LPA is the floor offer**. The 7th (competing off
 ### After Day 30
 - Week 5: interview-driven prep. Each interview tells you the next gap.
 - Week 6: offer optimization (see Section 24 negotiation).
-- Target: **first offer by Day 45, signed offer at ₹40+ LPA by Day 60.**
 
 ---
 
@@ -1452,7 +1412,7 @@ Architected · Authored · Automated · Benchmarked · Built · Cut · Delivered
 - **Key skills (add)**: React Native CLI, Expo, React Navigation, Redux Toolkit, Zustand, React Query, TypeScript, Jest, Detox, Fastlane, CI/CD, App Store Deployment, Play Store Deployment, Deep Linking, Branch.io, Auth0, AWS Cognito, Razorpay, Cashfree, Sentry, PostHog, Performance Optimization
 - **Key skills (remove)**: Mobile Development (generic), Mobile Application Development (generic), Android Application Development (generic), Visual Studio, Context API
 - **Preferred locations**: Bengaluru, Remote, Hyderabad, Pune, Chennai, Gurugram, Noida (drop Kolkata)
-- **Expected salary**: bump from ₹25L → ₹28–32L on Naukri (filters by band)
+- **Expected salary**: set the band slightly above your current number on Naukri so you don't get filtered out by recruiters searching by band. Use levels.fyi / AmbitionBox to set realistic role-level numbers.
 - **Notice period**: state explicitly with last working date if known
 
 ### Best search keywords (sprinkle across headline/summary/experience/skills)
@@ -2930,7 +2890,7 @@ function coinChange(coins: number[], amount: number): number {
 - Recruiter pushes back hard on competing-offer disclosure.
 
 **Negotiation script (after offer)**:
-> "Thank you for the offer — I'm excited about the role. I'm currently in final stages with [N] other companies in similar bands, and the offers I'm seeing are in the ₹[X]–[Y] LPA fixed range. Given my fintech mobile lead profile, what flexibility is there to bring this in line? I'd love to commit to [Company] this week if we can land in that range."
+> "Thank you for the offer — I'm excited about the role. I'm in final stages with [N] other companies in similar bands, and the offers I'm seeing are at the top of the [Senior/Staff/Lead] role-level band for this scope. Given my profile, what flexibility is there to bring this in line? I'd love to commit to [Company] this week if we can land in that range."
 
 ---
 
@@ -3298,7 +3258,7 @@ Demo: login → store tokens → 401 → silent refresh → biometric gate after
 > "I've taken LVX and LVXQ from feature-light to a production fintech platform, and I'm at the point where the next leap for me is leading mobile at a larger product org — owning architecture decisions across multiple apps and engineers. LetsVenture is a great team; this move is about scope, not dissatisfaction."
 
 **"What's your current CTC?" (deflect)**:
-> "I'd rather we align on the band the role is open to first — I want to make sure we're in the same range before we get into specifics. My expected fixed is **₹45–55 LPA** based on what the market is offering for senior fintech RN roles in Bengaluru. Happy to share details once we have a mutual fit."
+> "I'd rather we align on the band the role is open to first — I want to make sure we're in the same range before we get into specifics. My target is the **role-level band** I've researched on levels.fyi / AmbitionBox for this seniority and scope. Happy to share details once we have a mutual fit."
 
 **"What's your notice period?"**:
 > "Officially 60 days, but I've had similar moves negotiated down to 30–45 days with a clean handover plan. I can commit a date once an offer is concrete."
@@ -3451,7 +3411,7 @@ If you can:
 - Handle the recruiter scripts in H.8 cold.
 - Build at least 3 sample apps from H.7 and link them on your resume.
 
-…then you are ready for ₹40+ LPA RN/mobile-lead loops in India. Go land them.
+…then you are ready for Senior / Staff / Lead RN loops at top product companies. Go land them.
 
 ---
 
@@ -4285,4 +4245,4 @@ If you want me to literally generate 50 Qs (no answers, just bank) per major sec
 - Six engineering tracks with score-yourself rubric
 - 5 sample-app build specs + 1 monorepo blueprint
 
-Read top-to-bottom once. Then revise by section. Build at least 3 of the H.7 sample apps. Record the 10 STAR stories. Run mock loops with someone for 2 weeks. You're then ready for ₹40+ LPA RN/mobile-lead loops in India.
+Read top-to-bottom once. Then revise by section. Build at least 3 of the H.7 sample apps. Record the 10 STAR stories. Run mock loops with someone for 2 weeks. You're then ready for Senior / Staff / Lead RN loops at top product companies.
